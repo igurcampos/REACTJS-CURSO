@@ -16,3 +16,4 @@ E também veremos outros tópicos como:
     Configurar a estrutura de um projeto React do zero;
     Webpack;
     Babel.
+    --
