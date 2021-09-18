@@ -20,3 +20,4 @@ E também veremos outros tópicos como:
 
 Usei yarn para acessar algumas bibliotecas, usando babel para trabalhar com javascript e react de uma maneira mais moderna.
 
+
