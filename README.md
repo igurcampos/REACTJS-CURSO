@@ -9,7 +9,7 @@ Iremos aprender muito sobre os fundamentos do frontend e fundamentos mais espec�
     Imutabilidade;
     Propriedades;
     Hooks (useState, useEfect);
-    TypeScript.
+    TypeScript.git 
 
 E também veremos outros tópicos como:
 
