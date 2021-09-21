@@ -18,6 +18,6 @@ E também veremos outros tópicos como:
     Babel.
     --
 
-Usei yarn para acessar algumas bibliotecas, usando babel para trabalhar com javascript e react de uma maneira mais moderna.
+ - Usei yarn para acessar algumas bibliotecas, usando babel para trabalhar com javascript e  react de uma maneira mais moderna.
 
  - Instalei o webpack-dev-server no projeto. Assim, não será mais necessário ficar gerando um build novo manualmente a cada alteração que fizermos no código, já que essa ferramenta faz isso automaticamente a cada alteração nos arquivos.
