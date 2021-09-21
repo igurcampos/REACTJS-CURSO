@@ -1,3 +1,3 @@
 export function App() {
-    return <h1>IGOR LINDO</h1>
+    return <h1>IGOR LINDO E MARAVILHOSO</h1>
 };
