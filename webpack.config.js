@@ -1,8 +1,12 @@
 const path = require('path');
-const htmlWebpackplugin = require('html-webpack-plugin')
+const htmlWebpackplugin = require('html-webpack-plugin');
+
+const isDevelement = process.env.NODE_ENV !== 'production';
 
 module.exports = {
-    mode: 'development',
+    mode: isDevelement ? 'development': 'production',
+
+    devtool: isDevelement ? 'eval-source-map': 'source-map',
 
     entry: path.resolve(__dirname, 'src', 'index.jsx'),
     output: {
@@ -28,7 +32,13 @@ module.exports = {
                 test: /\.jsx$/,
                 exclude: /node_modules/,
                 use: 'babel-loader'
+            },
+            {
+                test: /\.css$/,
+                exclude: /node_modules/,
+                use: 'css'
             }
+
         ],
     }
 };
