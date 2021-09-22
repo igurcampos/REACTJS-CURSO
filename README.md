@@ -22,3 +22,5 @@ E também veremos outros tópicos como:
 
  - Instalei o webpack-dev-server no projeto. Assim, não será mais necessário ficar gerando um build novo manualmente a cada alteração que fizermos no código, já que essa ferramenta faz isso automaticamente a cada alteração nos arquivos.
  - Css-loader e style-loader para modificar meu css
+ - Criando o segundo componente no React, o primeiro foi o App
+ - conceitos importantes do react: componente, propriedade e estado 

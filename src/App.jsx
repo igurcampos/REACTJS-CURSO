@@ -1,5 +1,13 @@
+import { Counter } from './components/Counter';
+import { RepositoryList } from './components/RepositoryList';
 import './Styles/global.scss';
 
 export function App() {
-    return <h1>IGOR LINDO E MARAVILHOSO</h1>
+    return (
+    <>
+    <RepositoryList/>
+    <Counter/>   
+    </>
+    )
+  
 };
