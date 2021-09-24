@@ -24,3 +24,4 @@ E também veremos outros tópicos como:
  - Css-loader e style-loader para modificar meu css
  - Criando o segundo componente no React, o primeiro foi o App
  - conceitos importantes do react: componente, propriedade e estado 
+ - Fast refresh no webpack
