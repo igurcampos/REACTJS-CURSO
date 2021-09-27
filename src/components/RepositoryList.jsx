@@ -1,7 +1,9 @@
 import { RepositoryItem } from "./RepositoryItem";
 
 import '../Styles/repositories.scss';
+import { useState } from "react";
 
+//https://api.github.com/orgs/rocketseat/repos
 
 const entendo = {
     name: "Entendendo a propriedade",
@@ -15,6 +17,9 @@ const entendo = {
  }
 
 export function RepositoryList() {
+
+    const [] = useState([]); //parei aqui????ww
+
     return (
         <section className="repository-list" >
             <h1>Lista de repositórios</h1>
