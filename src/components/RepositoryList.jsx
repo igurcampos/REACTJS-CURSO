@@ -1,5 +1,8 @@
 import { RepositoryItem } from "./RepositoryItem";
 
+import '../Styles/repositories.scss';
+
+
 const entendo = {
     name: "Entendendo a propriedade",
     description:"qualquer coisa",
