@@ -25,3 +25,4 @@ E também veremos outros tópicos como:
  - Criando o segundo componente no React, o primeiro foi o App
  - conceitos importantes do react: componente, propriedade e estado 
  - Fast refresh no webpack
+ - useEffect para pegar api e colocar no array de repositorios, repositoryItem
